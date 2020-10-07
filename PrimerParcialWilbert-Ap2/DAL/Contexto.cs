@@ -9,7 +9,7 @@ namespace PrimerParcialWilbert_Ap2.DAL
 {
     public class Contexto : DbContext
     {
-        public DbSet<Productos> articulos { get; set; }
+        public DbSet<Productos> productos { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
